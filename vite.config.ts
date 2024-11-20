@@ -29,7 +29,7 @@ export default defineConfig({
   test: {
     root: './',
     watch: false,
-    globals: false,
+    globals: true,
     environment: 'happy-dom',
     setupFiles: './vitest-setup.ts',
     reporters: ['default'],
