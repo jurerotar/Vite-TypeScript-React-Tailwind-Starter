@@ -9,7 +9,7 @@ export default defineConfig({
     open: true,
   },
   optimizeDeps: {
-    include: ['react', 'react-dom', 'react-router-dom', 'i18next', 'react-i18next', '@tanstack/react-query'],
+    include: ['react', 'react-dom', 'react-router', 'i18next', 'react-i18next', '@tanstack/react-query'],
   },
   build: {
     target: 'esnext',
